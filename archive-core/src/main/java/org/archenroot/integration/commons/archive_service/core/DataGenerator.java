@@ -1,5 +1,7 @@
 package org.archenroot.integration.commons.archive_service.core;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.ArchiveConfiguration;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.ArchiveGlobalConfiguration;
 import org.archenroot.integration.commons.archive_service.core.archive.ArchiveConstants;
 import org.archenroot.integration.commons.archive_service.core.archive.ArchiveManager;
 

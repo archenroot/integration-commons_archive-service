@@ -1,4 +1,4 @@
-package org.prokyon.integration.app;
+package org.archenroot.integration.commons.archive_service.application;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -8,24 +8,26 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.OrderState;
+import org.archenroot.integration.commons.archive_service.backend.domain.Role;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Customer;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.HistoryItem;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Order;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.OrderItem;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.PickupLocation;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Product;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.User;
+import org.archenroot.integration.commons.archive_service.backend.repository.OrderRepository;
+import org.archenroot.integration.commons.archive_service.backend.repository.PickupLocationRepository;
+import org.archenroot.integration.commons.archive_service.backend.repository.ProductRepository;
+import org.archenroot.integration.commons.archive_service.backend.repository.UserRepository;
+import org.archenroot.integration.commons.archive_service.core.HasLogger;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.vaadin.spring.annotation.SpringComponent;
-import org.prokyon.integration.backend.OrderRepository;
-import org.prokyon.integration.backend.PickupLocationRepository;
-import org.prokyon.integration.backend.ProductRepository;
-import org.prokyon.integration.backend.UserRepository;
-import org.prokyon.integration.backend.data.OrderState;
-import org.prokyon.integration.backend.data.Role;
-import org.prokyon.integration.backend.data.entity.Customer;
-import org.prokyon.integration.backend.data.entity.HistoryItem;
-import org.prokyon.integration.backend.data.entity.Order;
-import org.prokyon.integration.backend.data.entity.OrderItem;
-import org.prokyon.integration.backend.data.entity.PickupLocation;
-import org.prokyon.integration.backend.data.entity.Product;
-import org.prokyon.integration.backend.data.entity.User;
+
 
 @SpringComponent
 public class DataGenerator implements HasLogger {
@@ -51,8 +53,8 @@ public class DataGenerator implements HasLogger {
 
 	@Bean
 	public CommandLineRunner loadData(OrderRepository orderRepository, UserRepository userRepository,
-			ProductRepository productRepository, PickupLocationRepository pickupLocationRepository,
-			PasswordEncoder passwordEncoder) {
+									  ProductRepository productRepository, PickupLocationRepository pickupLocationRepository,
+									  PasswordEncoder passwordEncoder) {
 		return args -> {
 			if (hasData(userRepository)) {
 				getLogger().info("Using existing database");
@@ -317,11 +319,11 @@ public class DataGenerator implements HasLogger {
 	}
 
 	private void createUsers(UserRepository userRepository, PasswordEncoder passwordEncoder) {
-		baker = userRepository.save(new User("baker@vaadin.com", "Heidi", passwordEncoder.encode("baker"), Role.BAKER));
-		User user = new User("barista@vaadin.com", "Malin", passwordEncoder.encode("barista"), Role.BARISTA);
+		baker = userRepository.save(new User("data-manager@coreso.eu", "Oscar", passwordEncoder.encode("data-manager"), Role.DATA_MANAGER));
+		User user = new User("operator@coreso.eu", "Kaiser Soze", passwordEncoder.encode("operator"), Role.OPERATOR);
 		user.setLocked(true);
 		barista = userRepository.save(user);
-		user = new User("admin@vaadin.com", "Göran", passwordEncoder.encode("admin"), Role.ADMIN);
+		user = new User("root@archenroot.org", "Ladislav", passwordEncoder.encode("root"), Role.ADMIN);
 		user.setLocked(true);
 		userRepository.save(user);
 	}

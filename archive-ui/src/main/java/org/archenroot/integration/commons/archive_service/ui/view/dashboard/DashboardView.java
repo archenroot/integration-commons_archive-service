@@ -13,6 +13,11 @@ import java.util.stream.Stream;
 
 import javax.annotation.PostConstruct;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.DashboardData;
+import org.archenroot.integration.commons.archive_service.backend.domain.DeliveryStats;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Order;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Product;
+import org.archenroot.integration.commons.archive_service.backend.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.vaadin.addon.charts.Chart;
@@ -30,11 +35,7 @@ import com.vaadin.board.Row;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringView;
-import org.prokyon.integration.backend.data.DashboardData;
-import org.prokyon.integration.backend.data.DeliveryStats;
-import org.prokyon.integration.backend.data.entity.Order;
-import org.prokyon.integration.backend.data.entity.Product;
-import org.prokyon.integration.backend.service.OrderService;
+
 import org.archenroot.integration.commons.archive_service.ui.components.OrdersGrid;
 import org.archenroot.integration.commons.archive_service.ui.navigation.NavigationManager;
 import org.archenroot.integration.commons.archive_service.ui.view.orderedit.OrderEditView;

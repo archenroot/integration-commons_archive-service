@@ -30,8 +30,9 @@
 
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">create-drop</property>
-
+        <!--
         <mapping class="org.archenroot.integration.common_archive_service.backend.domain.ArchiveEntry" />
         <mapping class="org.archenroot.integration.common_archive_service.backend.domain.ArchiveConfiguration" />
+        -->
     </session-factory>
 </hibernate-configuration>

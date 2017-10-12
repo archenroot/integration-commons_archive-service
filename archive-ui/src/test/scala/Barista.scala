@@ -1,4 +1,4 @@
-package org.prokyon.integration
+package org.archenroot.integration.commons.archive_service
 
 import scala.concurrent.duration._
 

@@ -1,8 +1,8 @@
 package org.archenroot.integration.commons.archive_service.backend.controller;
 
 
-import org.archenroot.integration.commons.archive_service.backend.CommonArchiveServiceApplication;
 import org.archenroot.integration.commons.archive_service.backend.domain.entity.ArchiveConfiguration;
+import org.archenroot.integration.commons.archive_service.backend.repository.ArchiveConfigurationRepository;
 import org.archenroot.integration.commons.archive_service.backend.repository.ArchiveGlobalConfigurationRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -49,7 +49,7 @@ public class ArchiveEntryControllerTest {
     @Autowired
     private ArchiveGlobalConfigurationRepository archiveGlobalConfigurationRepository;
     @Autowired
-    private ArchiveConfiguration archiveConfiguration;
+    private ArchiveConfigurationRepository archiveConfigurationRepository;
 
     @Autowired
     private WebApplicationContext webApplicationContext;

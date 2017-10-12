@@ -1,4 +1,4 @@
-package org.prokyon.integration.app;
+package org.archenroot.integration.commons.archive_service.application;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

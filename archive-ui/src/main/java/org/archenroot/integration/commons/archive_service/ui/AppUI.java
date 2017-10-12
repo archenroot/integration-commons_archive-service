@@ -1,5 +1,7 @@
 package org.archenroot.integration.commons.archive_service.ui;
 
+
+import org.archenroot.integration.commons.archive_service.core.HasLogger;
 import org.archenroot.integration.commons.archive_service.ui.navigation.NavigationManager;
 import org.archenroot.integration.commons.archive_service.ui.view.AccessDeniedView;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +14,7 @@ import com.vaadin.server.DefaultErrorHandler;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.spring.navigator.SpringViewProvider;
-import org.prokyon.integration.app.HasLogger;
+
 import com.vaadin.ui.UI;
 
 @Theme("apptheme")

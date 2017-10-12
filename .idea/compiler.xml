@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="application" />
         <module name="archive-backend" />
         <module name="archive-core" />
         <module name="archive-ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="application" target="1.8" />
       <module name="archive-backend" target="1.8" />
       <module name="archive-core" target="1.8" />
       <module name="archive-root" target="1.8" />

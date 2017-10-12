@@ -1,6 +1,7 @@
 package org.archenroot.integration.commons.archive_service.application;
 
 import org.apache.activemq.command.ActiveMQQueue;
+import org.archenroot.integration.commons.archive_service.application.security.SecurityConfig;
 import org.archenroot.integration.commons.archive_service.backend.domain.entity.Order;
 import org.archenroot.integration.commons.archive_service.backend.repository.OrderRepository;
 import org.archenroot.integration.commons.archive_service.backend.service.UserService;

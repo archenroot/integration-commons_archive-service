@@ -1,4 +1,4 @@
-package org.archenroot.integration.commons.archive_service.application;
+package org.archenroot.integration.commons.archive_service.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
