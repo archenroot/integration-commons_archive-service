@@ -1,6 +1,18 @@
 # Common Archive Service
 
-Microservice which purpose is to manage any kind of data backup or archiving including retention policy features.
+Microservice which purpose is to manage any kind of data backup or archiving including retention policy features, high ratio compression algorithms (LZMA2, etc.) and all related.
+
+This is first service from Common Integration Microservices set I am working on where others are:
+Transport Service - deliver any kind of data from any point to any other point, so implements every possible transport protocol mainly for file transport.
+Audit Service - This service can be either embedded to others or be deployed independently, depends on architecture and implements Audit pattern, so is to be reused by all other services.
+Data Conversion Service - provide a generic approach to convert data formats
+etc.
+Scheduler Service - as name suggest this service will provide centralized
+Process Management Service - in brainstorming process
+Data Persistence - This service is responsible to take any file in company delivered by Transport service and load it into database to process - supporting CSV, XML, JSON (RDBMS) and RDF(Tripple store or Graph database) files
+and more will come
+
+All microservices provide its own persistence layer in form of embedded PostgreSQL server which could be easily replaced by tartger infrastructure, provide both async and sync API to work with. These microservices are serving within our company as common data integration infrastructure and support business process exectuion. All services will be integrated in SpringBoot Admin and provide Vaadin based dashboards to work with. All services could be horizontally scalled either as are, or via Docker deployment included.
 
 [![build status](http://ip-dev01.coreso.eu/gitlab/integration-platform/commons/common-archive-service/badges/master/build.svg)](http://ip-dev01.coreso.eu/gitlab/infrastructure/networking/bankai-proxy-server/commits/master)
 [![coverage report](http://ip-dev01.coreso.eu/gitlab/integration-platform/commons/common-archive-service/badges/master/coverage.svg)](http://ip-dev01.coreso.eu/gitlab/infrastructure/networking/bankai-proxy-server/commits/master)
