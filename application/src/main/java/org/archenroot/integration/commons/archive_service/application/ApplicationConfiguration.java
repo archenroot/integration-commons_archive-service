@@ -1,4 +1,4 @@
-package org.prokyon.integration.app;
+package org.archenroot.integration.commons.archive_service.application;
 
 import com.vaadin.spring.access.SecuredViewAccessControl;
 import org.springframework.context.annotation.Bean;

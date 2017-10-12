@@ -3,6 +3,10 @@ package org.archenroot.integration.commons.archive_service.ui.view.admin;
 import java.io.Serializable;
 import java.util.List;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.AbstractEntity;
+import org.archenroot.integration.commons.archive_service.backend.service.CrudService;
+import org.archenroot.integration.commons.archive_service.backend.service.UserFriendlyDataException;
+import org.archenroot.integration.commons.archive_service.core.HasLogger;
 import org.archenroot.integration.commons.archive_service.ui.components.ConfirmPopup;
 import org.archenroot.integration.commons.archive_service.ui.navigation.NavigationManager;
 import org.springframework.beans.factory.BeanFactory;
@@ -18,10 +22,7 @@ import com.vaadin.data.ValidationException;
 import com.vaadin.data.ValidationResult;
 import com.vaadin.navigator.ViewBeforeLeaveEvent;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
-import org.prokyon.integration.app.HasLogger;
-import org.prokyon.integration.backend.data.entity.AbstractEntity;
-import org.prokyon.integration.backend.service.CrudService;
-import org.prokyon.integration.backend.service.UserFriendlyDataException;
+
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.Notification;
 import com.vaadin.ui.Notification.Type;

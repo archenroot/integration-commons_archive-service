@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 import javax.annotation.PostConstruct;
 
+
+import org.archenroot.integration.commons.archive_service.backend.domain.Role;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.AbstractEntity;
+import org.archenroot.integration.commons.archive_service.core.HasLogger;
 import org.springframework.security.access.annotation.Secured;
 
 import com.vaadin.data.BeanValidationBinder;
@@ -12,9 +16,7 @@ import com.vaadin.data.provider.DataProvider;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewBeforeLeaveEvent;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
-import org.prokyon.integration.app.HasLogger;
-import org.prokyon.integration.backend.data.Role;
-import org.prokyon.integration.backend.data.entity.AbstractEntity;
+
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Component.Focusable;

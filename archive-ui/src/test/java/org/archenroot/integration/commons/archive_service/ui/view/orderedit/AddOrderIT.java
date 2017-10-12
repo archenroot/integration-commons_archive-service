@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Locale;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.OrderState;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Customer;
 import org.archenroot.integration.commons.archive_service.ui.components.ConfirmationDialogDesignElement;
 import org.archenroot.integration.commons.archive_service.ui.util.DollarPriceConverter;
 import org.archenroot.integration.commons.archive_service.ui.view.MenuElement;
@@ -16,8 +18,7 @@ import org.junit.Test;
 import com.vaadin.data.Result;
 import com.vaadin.data.ValueContext;
 import org.archenroot.integration.commons.archive_service.AbstractIT;
-import org.prokyon.integration.backend.data.OrderState;
-import org.prokyon.integration.backend.data.entity.Customer;
+
 import org.archenroot.integration.commons.archive_service.ui.view.orderedit.OrderEditViewElement.OrderInfo;
 import com.vaadin.testbench.ElementQuery;
 

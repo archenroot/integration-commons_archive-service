@@ -1,4 +1,4 @@
-package org.prokyon.integration.app;
+package org.archenroot.integration.commons.archive_service.application;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
