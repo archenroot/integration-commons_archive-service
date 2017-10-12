@@ -1,0 +1,5 @@
+
+@squid:S1452"&Remove usage of generic wildcard type.(·…ψÿÿÿÿ
+^squid:S1068"BRemove this unused "archiveConfigurationRepository" private field.(Μι«µ8―‰σ•π+
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(βΉγy
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(­βÒΤϋÿÿÿÿ

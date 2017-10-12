@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.archenroot.integration</groupId>
+        <artifactId>archive-root</artifactId>
+        <version>1.0.0</version>
+        <!-- lookup parent from repository -->
+        <relativePath>archive-root/pom.xml</relativePath>
+    </parent>
+
+
+    <groupId>org.archenroot.integration</groupId>
+    <artifactId>common-archive-service</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>Common Archive Service</name>
+    <description>
+        Microservice responsible for file archiving.
+    </description>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>http://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <modules>
+
+        <module>archive-backend</module>
+        <module>archive-core</module>
+        <module>archive-ui</module>
+        <!-- Parent project -->
+        <module>archive-root</module>
+    </modules>
+
+</project>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../dashboard/profiles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../dashboard/src/main/resources/org/prokyon/integration/ui/MainViewDesign.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../dashboard/src/main/resources/org/prokyon/integration/ui/view/AccessDeniedDesign.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bakery-vaadin-starter/src/main/java/org/prokyon/integration/ui/MainViewDesign.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bakery-vaadin-starter/src/main/webapp/login.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/sqldialects.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/workspace.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/backend/domain/ArchiveConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/backend/domain/ArchiveEntry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/configuration/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/controller/ArchiveConfigurationController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/controller/ArchiveEntryController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/controller/FileController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/controller/ItemController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/domain/Archive.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/domain/ArchiveConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/domain/ArchiveEntry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/domain/ArchiveMultiLevelConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/domain/GlobalConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/repository/ArchiveEntryRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/eu/coreso/integration/common_archive_service/repository/FileRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/CommonArchiveServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/controller/ArchiveConfigurationController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/controller/ArchiveEntryController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/domain/ArchiveConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/domain/DashboardData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/domain/OrderState.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/domain/Role.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/domain/entity/ArchiveConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/domain/entity/ArchiveGlobalConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/domain/entity/HistoryItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/domain/entity/Order.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/ArchiveConfigurationRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/ArchiveEntryRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/ArchiveGlobalConfigurationRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/CustomerRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/HistoryItemRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/OrderRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/PickupLocationRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/ProductRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/repository/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/service/CrudService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/service/OrderService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/service/PickupLocationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/service/ProductService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/common_archive_service/backend/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/CommonArchiveServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/domain/entity/Product.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/repository/ArchiveGlobalConfigurationRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/repository/CustomerRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/repository/HistoryItemRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/service/CrudService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/service/PickupLocationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/service/ProductService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/resources/hibernate.cfg.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/test/java/eu/coreso/integration/common_archive_service/backend/controller/ArchiveEntryControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/test/java/eu/coreso/integration/common_archive_service/controller/ArchiveEntryControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/test/java/org/archenroot/integration/common_archive_service/backend/controller/ArchiveEntryControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/test/java/org/archenroot/integration/commons/archive_service/backend/controller/ArchiveEntryControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/target/surefire-reports/eu.coreso.integration.common_archive_service.controller.ArchiveEntryControllerTest.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/Archiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/CommonsArchiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/CommonsStreamFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/FileType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/Archiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/ArchiverFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/CommonsArchiveEntry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/CommonsArchiveStream.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/CommonsStreamFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/CompressionType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/CompressorFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/FileType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/eu/coreso/integration/common_archive_service/core/ZipFileArchiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/ArchiveEntry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/ArchiverCompressorDecorator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/AttributeAccessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/CommonsArchiveEntry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/CommonsArchiveStream.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/CommonsArchiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/CommonsCompressor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/DataGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/FileModeMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/FileType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/ZipFileArchiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-root/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-archive-service.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gitlab-ci.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/eu/coreso/integration/common_archive_service/controller/FileController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/eu/coreso/integration/common_archive_service/domain/Archive.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/eu/coreso/integration/common_archive_service/domain/ArchiveRegistry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../jarchivelib/src/main/java/org/rauschig/jarchivelib/FileModeMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/archive-backend/archive-backend.iml" filepath="$PROJECT_DIR$/archive-backend/archive-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/archive-core/archive-core.iml" filepath="$PROJECT_DIR$/archive-core/archive-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/archive-root/archive-root.iml" filepath="$PROJECT_DIR$/archive-root/archive-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/archive-ui/archive-ui.iml" filepath="$PROJECT_DIR$/archive-ui/archive-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-archive-service.iml" filepath="$PROJECT_DIR$/common-archive-service.iml" />
+    </modules>
+  </component>
+</project>

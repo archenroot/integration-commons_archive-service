@@ -1,0 +1,5 @@
+
+’squid:UselessImportCheck"jRemove this unused import 'org.archenroot.integration.common_archive_service.backend.domain.ArchiveEntry'.(ðÐæ
+8’”ñ•ð+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§—û¦øÿÿÿÿ8³÷í•ð+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(žö‰öûÿÿÿÿ
