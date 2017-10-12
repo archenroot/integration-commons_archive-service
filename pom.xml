@@ -17,7 +17,7 @@
     <artifactId>common-archive-service</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-    <name>Common Archive Service</name>
+    <name>Integration - Commons - Archive Service - Aggregator module</name>
     <description>
         Microservice responsible for file archiving.
     </description>
@@ -36,6 +36,9 @@
         <module>archive-ui</module>
         <!-- Parent project -->
         <module>archive-root</module>
+        <module>application</module>
     </modules>
+
+
 
 </project>

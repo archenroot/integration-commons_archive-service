@@ -1,10 +1,11 @@
 package org.archenroot.integration.commons.archive_service.ui.view.orderedit;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.vaadin.spring.annotation.PrototypeScope;
 
 import com.vaadin.spring.annotation.SpringComponent;
-import org.prokyon.integration.backend.data.entity.Product;
+
 import com.vaadin.ui.ComboBox;
 
 @SpringComponent

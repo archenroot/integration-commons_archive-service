@@ -13,6 +13,16 @@ import java.util.stream.Collectors;
 import javax.annotation.PreDestroy;
 import javax.validation.ValidationException;
 
+
+import org.archenroot.integration.commons.archive_service.core.HasLogger;
+import org.archenroot.integration.commons.archive_service.ui.security.SecurityUtils;
+import org.archenroot.integration.commons.archive_service.backend.domain.OrderState;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Customer;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Order;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.OrderItem;
+import org.archenroot.integration.commons.archive_service.backend.service.OrderService;
+import org.archenroot.integration.commons.archive_service.backend.service.PickupLocationService;
+import org.archenroot.integration.commons.archive_service.backend.service.UserService;
 import org.archenroot.integration.commons.archive_service.ui.navigation.NavigationManager;
 import org.archenroot.integration.commons.archive_service.ui.view.storefront.StorefrontView;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,15 +33,7 @@ import org.vaadin.spring.events.annotation.EventBusListenerMethod;
 import com.vaadin.data.HasValue;
 import com.vaadin.spring.annotation.SpringComponent;
 import com.vaadin.spring.annotation.ViewScope;
-import org.prokyon.integration.app.HasLogger;
-import org.prokyon.integration.app.security.SecurityUtils;
-import org.prokyon.integration.backend.data.OrderState;
-import org.prokyon.integration.backend.data.entity.Customer;
-import org.prokyon.integration.backend.data.entity.Order;
-import org.prokyon.integration.backend.data.entity.OrderItem;
-import org.prokyon.integration.backend.service.OrderService;
-import org.prokyon.integration.backend.service.PickupLocationService;
-import org.prokyon.integration.backend.service.UserService;
+
 import com.vaadin.ui.Component.Focusable;
 import com.vaadin.ui.Notification;
 import com.vaadin.ui.Notification.Type;

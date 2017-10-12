@@ -68,6 +68,66 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/application/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/app/Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/app/IconBootstrapListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/DataGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/IconBootstrapListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/RedirectAuthenticationSuccessHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/security/RedirectAuthenticationSuccessHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/security/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/security/SecurityUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/org/archenroot/integration/commons/archive_service/application/security/UserDetailsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/archive-backend/pom.xml">
           <value>
             <set />
@@ -313,6 +373,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/util/LocalDateJpaConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/util/LocalDateTimeJpaConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-backend/src/main/java/org/archenroot/integration/commons/archive_service/backend/util/LocalTimeJpaConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/archive-backend/src/main/resources/application.properties">
           <value>
             <set />
@@ -418,6 +493,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/commons/archive_service/core/DataGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/commons/archive_service/core/HasLogger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/archive-core/src/main/java/org/archenroot/integration/service/archive/core/ArchiveEntry.java">
           <value>
             <set />
@@ -488,6 +573,191 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/AppUI.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/components/OrdersDataProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/components/OrdersGrid.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/navigation/NavigationManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/security/RedirectAuthenticationSuccessHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/security/SecurityUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/AbstractCrudPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/AbstractCrudView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/RoleSelect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/product/ProductAdminDataProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/product/ProductAdminPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/product/ProductAdminView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/product/ProductAdminViewDesign.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/user/UserAdminDataProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/user/UserAdminPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/user/UserAdminView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/admin/user/UserAdminViewDesign.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/dashboard/DashboardView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/OrderEditPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/OrderEditView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/OrderEditViewDesign.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/OrderHistory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/OrderItemDeletedEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/OrderStateSelect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/PickupLocationComboBox.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/PickupLocationComboBoxDataProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/ProductComboBox.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/ProductComboBoxDataProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/ProductInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/storefront/StorefrontView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/java/org/archenroot/integration/commons/archive_service/ui/view/storefront/StorefrontViewDesign.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/resources/org/archenroot/integration/commons/archive_service/ui/view/AccessDeniedDesign.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/main/resources/org/archenroot/integration/commons/archive_service/ui/view/orderedit/OrderEditViewDesign.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/test/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/AddOrderIT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/test/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/OrderEditViewElement.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/test/java/org/archenroot/integration/commons/archive_service/ui/view/orderedit/UpdateOrderIT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archive-ui/src/test/scala/Barista.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/common-archive-service.iml">
           <value>
             <set />
@@ -514,6 +784,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/eu/coreso/integration/common_archive_service/domain/ArchiveRegistry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/rebel.xml">
           <value>
             <set />
           </value>

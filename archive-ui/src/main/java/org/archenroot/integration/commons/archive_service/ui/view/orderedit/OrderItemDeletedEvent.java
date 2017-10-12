@@ -1,6 +1,7 @@
 package org.archenroot.integration.commons.archive_service.ui.view.orderedit;
 
-import org.prokyon.integration.backend.data.entity.OrderItem;
+
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.OrderItem;
 
 public class OrderItemDeletedEvent {
 

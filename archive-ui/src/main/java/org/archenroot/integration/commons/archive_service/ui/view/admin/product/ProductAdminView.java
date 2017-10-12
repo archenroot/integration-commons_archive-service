@@ -2,14 +2,15 @@ package org.archenroot.integration.commons.archive_service.ui.view.admin.product
 
 import javax.annotation.PostConstruct;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Product;
 import org.archenroot.integration.commons.archive_service.ui.util.DollarPriceConverter;
+import org.archenroot.integration.commons.archive_service.ui.view.admin.AbstractCrudView;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.vaadin.data.BeanValidationBinder;
 import com.vaadin.data.ValueContext;
 import com.vaadin.spring.annotation.SpringView;
-import org.prokyon.integration.backend.data.entity.Product;
-import org.archenroot.integration.commons.archive_service.ui.view.admin.AbstractCrudView;
+
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Component.Focusable;

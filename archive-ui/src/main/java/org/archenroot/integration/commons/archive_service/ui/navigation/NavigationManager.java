@@ -1,5 +1,7 @@
 package org.archenroot.integration.commons.archive_service.ui.navigation;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.Role;
+import org.archenroot.integration.commons.archive_service.ui.security.SecurityUtils;
 import org.archenroot.integration.commons.archive_service.ui.view.dashboard.DashboardView;
 import org.springframework.stereotype.Component;
 
@@ -9,8 +11,7 @@ import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.spring.internal.Conventions;
 import com.vaadin.spring.navigator.SpringNavigator;
-import org.prokyon.integration.app.security.SecurityUtils;
-import org.prokyon.integration.backend.data.Role;
+
 import org.archenroot.integration.commons.archive_service.ui.view.storefront.StorefrontView;
 
 /**

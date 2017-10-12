@@ -3,6 +3,8 @@ package org.archenroot.integration.commons.archive_service.ui.view.orderedit;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Product;
+import org.archenroot.integration.commons.archive_service.backend.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -12,8 +14,6 @@ import com.vaadin.data.provider.Query;
 import com.vaadin.data.provider.QuerySortOrder;
 import com.vaadin.shared.data.sort.SortDirection;
 import com.vaadin.spring.annotation.SpringComponent;
-import org.prokyon.integration.backend.data.entity.Product;
-import org.prokyon.integration.backend.service.ProductService;
 
 @SpringComponent
 public class ProductComboBoxDataProvider extends PageableDataProvider<Product, String> {

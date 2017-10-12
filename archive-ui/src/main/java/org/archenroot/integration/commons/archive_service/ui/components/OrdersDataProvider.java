@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Order;
+import org.archenroot.integration.commons.archive_service.backend.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -15,8 +17,7 @@ import com.vaadin.data.provider.Query;
 import com.vaadin.data.provider.QuerySortOrder;
 import com.vaadin.shared.data.sort.SortDirection;
 import com.vaadin.spring.annotation.SpringComponent;
-import org.prokyon.integration.backend.data.entity.Order;
-import org.prokyon.integration.backend.service.OrderService;
+
 
 @SpringComponent
 @PrototypeScope

@@ -5,14 +5,15 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.OrderState;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Customer;
 import org.hamcrest.beans.SamePropertyValuesAs;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 
 import org.archenroot.integration.commons.archive_service.AbstractIT;
-import org.prokyon.integration.backend.data.OrderState;
-import org.prokyon.integration.backend.data.entity.Customer;
+
 import com.vaadin.testbench.HasDriver;
 import com.vaadin.testbench.elements.CssLayoutElement;
 import com.vaadin.testbench.elements.LabelElement;

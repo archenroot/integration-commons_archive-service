@@ -1,4 +1,4 @@
-package org.archenroot.integration.commons.archive_service.application.security;
+package org.archenroot.integration.commons.archive_service.ui.security;
 
 import java.util.Objects;
 import java.util.Set;

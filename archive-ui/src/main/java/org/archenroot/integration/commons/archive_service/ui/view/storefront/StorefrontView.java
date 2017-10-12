@@ -4,6 +4,7 @@ import java.util.Map;
 
 import javax.annotation.PostConstruct;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Order;
 import org.archenroot.integration.commons.archive_service.ui.navigation.NavigationManager;
 import org.archenroot.integration.commons.archive_service.ui.view.orderedit.OrderEditView;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.spring.annotation.ViewScope;
-import org.prokyon.integration.backend.data.entity.Order;
+
 import com.vaadin.ui.Button.ClickShortcut;
 
 /**

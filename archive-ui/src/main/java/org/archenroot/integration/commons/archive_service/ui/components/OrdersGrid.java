@@ -9,13 +9,13 @@ import java.util.stream.Stream;
 
 import javax.annotation.PostConstruct;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Customer;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.util.HtmlUtils;
 import org.vaadin.spring.annotation.PrototypeScope;
 
 import com.vaadin.spring.annotation.SpringComponent;
-import org.prokyon.integration.backend.data.entity.Customer;
-import org.prokyon.integration.backend.data.entity.Order;
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.renderers.HtmlRenderer;
 

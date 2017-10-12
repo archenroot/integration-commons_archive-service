@@ -6,6 +6,8 @@ import java.util.stream.Stream;
 
 import javax.annotation.PostConstruct;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.OrderItem;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Product;
 import org.archenroot.integration.commons.archive_service.ui.util.DollarPriceConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.vaadin.spring.annotation.PrototypeScope;
@@ -17,8 +19,6 @@ import com.vaadin.data.HasValue;
 import com.vaadin.data.ValueContext;
 import com.vaadin.data.converter.StringToIntegerConverter;
 import com.vaadin.spring.annotation.SpringComponent;
-import org.prokyon.integration.backend.data.entity.OrderItem;
-import org.prokyon.integration.backend.data.entity.Product;
 import com.vaadin.ui.Label;
 
 @SpringComponent

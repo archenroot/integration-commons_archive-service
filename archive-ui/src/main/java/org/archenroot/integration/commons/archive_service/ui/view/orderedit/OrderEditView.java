@@ -8,6 +8,9 @@ import java.util.stream.Stream;
 
 import javax.annotation.PostConstruct;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.OrderState;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.Order;
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.OrderItem;
 import org.archenroot.integration.commons.archive_service.ui.components.ConfirmPopup;
 import org.archenroot.integration.commons.archive_service.ui.util.DollarPriceConverter;
 import org.springframework.beans.factory.BeanFactory;
@@ -22,9 +25,7 @@ import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewBeforeLeaveEvent;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringView;
-import org.prokyon.integration.backend.data.OrderState;
-import org.prokyon.integration.backend.data.entity.Order;
-import org.prokyon.integration.backend.data.entity.OrderItem;
+
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Label;
 

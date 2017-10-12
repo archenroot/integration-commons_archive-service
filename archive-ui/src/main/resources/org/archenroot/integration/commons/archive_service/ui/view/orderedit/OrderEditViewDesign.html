@@ -2,11 +2,13 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;apptheme&quot;}">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;apptheme&quot;}">
   <meta name="vaadin-version" content="8.0.5">
-  <meta name="package-mapping" content="com_vaadin_template_orders_ui_view_orders:org.prokyon.integration.ui.view.orders">
-  <meta name="package-mapping" content="com_vaadin_template_orders_ui_components:org.prokyon.integration.ui.components">
-  <meta name="package-mapping" content="com_vaadin_template_orders_ui_view_orderedit:org.prokyon.integration.ui.view.orderedit">
+  <meta name="package-mapping" content="org_archenroot_integration_commons_archive_service_ui_view_orderedit:org.archenroot.integration.commons.archive_service.ui.view.orderedit">
+  <meta name="package-mapping" 
+content="com_vaadin_template_orders_ui_view_orders:org.archenroot.integration.commons.archive_service.ui.view.orders">
+  <meta name="package-mapping" content="com_vaadin_template_orders_ui_components:org.archenroot.integration.commons.archive_service.ui.components">
+  <meta name="package-mapping" content="com_vaadin_template_orders_ui_view_orderedit:org.archenroot.integration.commons.archive_service.ui.view.orderedit">
  </head>
  <body>
   <vaadin-vertical-layout spacing="false" margin-top="false">
@@ -18,7 +20,7 @@
      <vaadin-label style-name="h4 colored" id="stateLabel" width-full plain-text _id="stateLabel" :expand>
        New order 
      </vaadin-label>
-     <com_vaadin_template_orders_ui_view_orderedit-order-state-select id="state" _id="state" :middle :right></com_vaadin_template_orders_ui_view_orderedit-order-state-select>
+     <org_archenroot_integration_commons_archive_service_ui_view_orderedit-order-state-select id="state" _id="state" :middle :right></org_archenroot_integration_commons_archive_service_ui_view_orderedit-order-state-select>
     </vaadin-horizontal-layout>
     <vaadin-label style-name="header" width-full plain-text>
       Due 
@@ -31,7 +33,7 @@
      <vaadin-label style-name="large" plain-text :middle>
        @ 
      </vaadin-label>
-     <com_vaadin_template_orders_ui_view_orderedit-pickup-location-combo-box id="pickupLocation" width-full _id="pickupLocation" :middle :expand></com_vaadin_template_orders_ui_view_orderedit-pickup-location-combo-box>
+     <org_archenroot_integration_commons_archive_service_ui_view_orderedit-pickup-location-combo-box id="pickupLocation" width-full _id="pickupLocation" :middle :expand></org_archenroot_integration_commons_archive_service_ui_view_orderedit-pickup-location-combo-box>
     </vaadin-horizontal-layout>
     <vaadin-label style-name="header" width-full plain-text>
       Customer 
@@ -49,7 +51,7 @@
     <vaadin-label style-name="total huge bold" id="total" width-full plain-text _id="total">
       0.00 
     </vaadin-label>
-    <com_vaadin_template_orders_ui_view_orderedit-order-history id="history" width-full _id="history"></com_vaadin_template_orders_ui_view_orderedit-order-history>
+    <org_archenroot_integration_commons_archive_service_ui_view_orderedit-order-history id="history" width-full _id="history"></org_archenroot_integration_commons_archive_service_ui_view_orderedit-order-history>
     <vaadin-css-layout style-name="buttons" width-full>
      <vaadin-button icon="fonticon://Vaadin-Icons/e7ad" style-name="cancel" id="cancel" _id="cancel">
        Cancel 

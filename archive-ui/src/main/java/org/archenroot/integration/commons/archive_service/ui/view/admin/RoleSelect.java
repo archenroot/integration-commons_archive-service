@@ -1,7 +1,8 @@
 package org.archenroot.integration.commons.archive_service.ui.view.admin;
 
-import org.prokyon.integration.backend.data.Role;
+
 import com.vaadin.ui.ComboBox;
+import org.archenroot.integration.commons.archive_service.backend.domain.Role;
 
 public class RoleSelect extends ComboBox<String> {
 

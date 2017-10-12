@@ -2,6 +2,8 @@ package org.archenroot.integration.commons.archive_service.ui.view.admin.user;
 
 import javax.annotation.PostConstruct;
 
+import org.archenroot.integration.commons.archive_service.backend.domain.entity.User;
+import org.archenroot.integration.commons.archive_service.ui.view.admin.AbstractCrudView;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.vaadin.data.BeanValidationBinder;
@@ -10,8 +12,7 @@ import com.vaadin.data.Validator;
 import com.vaadin.data.ValueContext;
 import com.vaadin.data.validator.BeanValidator;
 import com.vaadin.spring.annotation.SpringView;
-import org.prokyon.integration.backend.data.entity.User;
-import org.archenroot.integration.commons.archive_service.ui.view.admin.AbstractCrudView;
+
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Component.Focusable;

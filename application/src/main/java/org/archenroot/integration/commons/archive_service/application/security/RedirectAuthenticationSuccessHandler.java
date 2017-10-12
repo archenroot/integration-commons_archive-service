@@ -1,4 +1,4 @@
-package org.archenroot.integration.commons.archive_service.ui.security;
+package org.archenroot.integration.commons.archive_service.application.security;
 
 import java.io.IOException;
 
@@ -7,13 +7,14 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.archenroot.integration.commons.archive_service.application.CommonArchiveServiceApplication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.web.context.annotation.ApplicationScope;
 
 import com.vaadin.spring.annotation.SpringComponent;
-import org.archenroot.integration.commons.archive_service.application.Application;
+
 
 /**
  * Redirects to the application after successful authentication.
@@ -28,7 +29,7 @@ public class RedirectAuthenticationSuccessHandler implements AuthenticationSucce
 	private ServletContext servletContext;
 
 	public RedirectAuthenticationSuccessHandler() {
-		location = Application.APP_URL;
+		location = CommonArchiveServiceApplication.APP_URL;
 	}
 
 	private String getAbsoluteUrl(String url) {

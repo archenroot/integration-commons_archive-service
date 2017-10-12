@@ -1,5 +1,7 @@
-package org.archenroot.integration.commons.archive_service.ui.security;
+package org.archenroot.integration.commons.archive_service.application.security;
 
+import org.archenroot.integration.commons.archive_service.application.CommonArchiveServiceApplication;
+import org.archenroot.integration.commons.archive_service.application.security.RedirectAuthenticationSuccessHandler;
 import org.archenroot.integration.commons.archive_service.backend.domain.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -55,9 +57,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 		// Allow access to login page without login
 		FormLoginConfigurer<HttpSecurity> login = sec.formLogin().permitAll();
-		login = login.loginPage(Application.LOGIN_URL).loginProcessingUrl(Application.LOGIN_PROCESSING_URL)
-				.failureUrl(Application.LOGIN_FAILURE_URL).successHandler(successHandler);
-		login.and().logout().logoutSuccessUrl(Application.LOGOUT_URL);
+		login = login.loginPage(CommonArchiveServiceApplication.LOGIN_URL).loginProcessingUrl(CommonArchiveServiceApplication.LOGIN_PROCESSING_URL)
+				.failureUrl(CommonArchiveServiceApplication.LOGIN_FAILURE_URL).successHandler(successHandler);
+		login.and().logout().logoutSuccessUrl(CommonArchiveServiceApplication.LOGOUT_URL);
 	}
 
 }

@@ -8,6 +8,7 @@
     <artifactId>archive-root</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+    <name>Integration - Commons - Archive Service - Root Parent module</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -26,7 +27,7 @@
         <!-- Core -->
         <commons.compress.version>1.14</commons.compress.version>
         <xz.version>1.6</xz.version>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.12</junit.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -313,46 +314,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.vaadin</groupId>
-                <artifactId>vaadin-maven-plugin</artifactId>
-                <version>${vaadin.plugin.version}</version>
-                <dependencies>
-                    <!-- For Travis -->
-                    <dependency>
-                        <groupId>xml-apis</groupId>
-                        <artifactId>xml-apis</artifactId>
-                        <version>1.4.01</version>
-                    </dependency>
-                </dependencies>
-                <configuration>
-                    <extraJvmArgs>-Xmx2G</extraJvmArgs>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>update-theme</goal>
-                            <goal>update-widgetset</goal>
-                            <goal>compile</goal>
-                            <goal>compile-theme</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${springboot.version}</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+
+<build><plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
@@ -371,6 +334,7 @@
                                     <excludes>
                                         <exclude>com.vaadin:webcomponents-helper</exclude>
                                         <exclude>org.archenroot.integration:archive-root</exclude>
+                                        <exclude>org.archenroot.integration:archive-core</exclude>
                                     </excludes>
                                 </requireReleaseDeps>
                             </rules>

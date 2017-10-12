@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>application</artifactId>
+    <version>1.0.0</version>
+    <name>Integration - Commons - Archive Service - Application module</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.archenroot.integration</groupId>
+            <artifactId>archive-backend</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.archenroot.integration</groupId>
+            <artifactId>archive-ui</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
